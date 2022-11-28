@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		4AFA869B2935677F00ABBD95 /* libLunaLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLunaLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFA869E2935677F00ABBD95 /* LunaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLibrary.swift; sourceTree = "<group>"; };
+		4AFA86A5293569A600ABBD95 /* libMelodySmart */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libMelodySmart; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		4AFA869D2935677F00ABBD95 /* LunaLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4AFA86A5293569A600ABBD95 /* libMelodySmart */,
 				4AFA869E2935677F00ABBD95 /* LunaLibrary.swift */,
 			);
 			path = LunaLibrary;
@@ -183,6 +185,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = LunaLibrary/libMelodySmart/MelodyManager.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -236,6 +239,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = LunaLibrary/libMelodySmart/MelodyManager.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
